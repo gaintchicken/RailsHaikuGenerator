@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4134436286">
+  <component name="DataSourceManagerImpl" format="xml" hash="772175763">
     <data-source source="LOCAL" name="Rails HaikuGeneratorWebapp: development" uuid="e75e8724-de5d-4c1d-b89c-ffe50096b774">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails HaikuGeneratorWebapp: production" uuid="fd0b4354-6bcb-4852-93d9-8c846ea0e7ab">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

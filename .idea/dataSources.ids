@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails HaikuGeneratorWebapp: development" uuid="e75e8724-de5d-4c1d-b89c-ffe50096b774">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails HaikuGeneratorWebapp: production" uuid="fd0b4354-6bcb-4852-93d9-8c846ea0e7ab">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
