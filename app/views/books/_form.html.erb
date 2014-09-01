@@ -1,0 +1,33 @@
+<%= form_for(@book) do |f| %>
+  <% if @book.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h2>
+
+      <ul>
+      <% @book.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+    <%= f.label :haikus_generated %><br />
+    <%= f.number_field :haikus_generated %>
+  </div>
+  <div class="field">
+    <%= f.label :times_viewed %><br />
+    <%= f.number_field :times_viewed %>
+  </div>
+  <div class="field">
+    <%= f.label :text_file %><br />
+    <%= f.file_field :text_file, :accept => '.txt' %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

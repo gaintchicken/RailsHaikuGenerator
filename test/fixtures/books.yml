@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  author: MyString
+  haikus_generated: 1
+  times_viewed: 1
+
+two:
+  author: MyString
+  haikus_generated: 1
+  times_viewed: 1
